@@ -1,4 +1,5 @@
 npm init
+	entry point server.js
 npm i express dotenv mongoose colors
 npm i -D nodemon
 
@@ -9,3 +10,18 @@ git add .
 git commit -m 'Initial commit'
 
 npm run server
+
+
+
+
+
+inside root folder
+create a file .gitignore
+	add node_modules, .env
+inside package.json "scripts" 
+	add "start": "node backend/server.js",
+	    "server": "nodemon backend/server.js"
+create a folder backend
+	create a folder route
+	create a folder controllers
+	inside a file server.js
