@@ -15,6 +15,7 @@ app.use(express.urlencoded({extended: false}))
 
 //list of api end point
 app.use('/api/goals', require('./routes/goalRoutes'))
+app.use('/api/users', require('./routes/userRoutes'))
 
 //use overwritten default express middleware
 app.use(errorHandler)
