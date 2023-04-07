@@ -4,6 +4,10 @@ npm i -D nodemon
 npm i express-async-handler
 npm i bcryptjs
 npm i jsonwebtoken
+npx create-react-app frontend --template redux
+	or npx create-react-app@latest frontend --template redux
+	cd frontend
+npm i react-router-dom
 
 
 sudo snap install postman
@@ -24,6 +28,7 @@ create a file .gitignore
 inside package.json "scripts" 
 	add "start": "node backend/server.js",
 	    "server": "nodemon backend/server.js"
+		"client": "npm start --prefix frontend"
 create a folder backend
 	create a folder route
 	create a folder controllers
